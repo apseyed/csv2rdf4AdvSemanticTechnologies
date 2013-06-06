@@ -97,14 +97,14 @@ NIN
 :Andrews_Forest_LTER a <http://www.w3.org/ns/org#Organization> ;
      rdfs:label "Andrews Forest LTER" ;
      rdfs:label "AND" ;
-     skos:hiddenLabel "HJ Andrews Experimental Forest" ;
+     skos:confused_with "HJ Andrews Experimental Forest" ;
      :has_field_site :HJ_Andrews_Experimental_Forest .
 
 :HJ_Andrews_Experimental_Forest a bfo:site ;
-     rdfs:label "HJ Andrews Experimental Forest" ;
+     rdfs:label "HJ Andrews Experimental Forest" .
      
      
-     
+     skos:confused_with rdfs:subPropertyOf skos:hidden_label .
      
      
      
