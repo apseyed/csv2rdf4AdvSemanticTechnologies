@@ -106,6 +106,9 @@ NIN
      
      skos:confused_with rdfs:subPropertyOf skos:hidden_label .
      
+     try to use confused_with as an object property!
+     what does that buy us?
+     
      
      
      
