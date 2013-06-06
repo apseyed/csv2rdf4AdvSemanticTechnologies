@@ -84,4 +84,29 @@ NIN
   
   from LTER ^ sapelo -> GeoCoastal Ecosystem 
   
+  look at paper "Converting and Annotating Quantitative Data Tables"
+  paper SKOS hidden label for wrong terms.
+  http://www.w3.org/TR/2009/NOTE-skos-primer-20090818/#sechidden
   
+  ex:animals rdf:type skos:Concept;
+  skos:prefLabel "animaux"@fr;
+  skos:altLabel "bêtes"@fr;
+  skos:hiddenLabel "betes"@fr.
+
+
+:Andrews_Forest_LTER a <http://www.w3.org/ns/org#Organization> ;
+     rdfs:label "Andrews Forest LTER" ;
+     rdfs:label "AND" ;
+     skos:hiddenLabel "HJ Andrews Experimental Forest" ;
+     :has_field_site :HJ_Andrews_Experimental_Forest .
+
+:HJ_Andrews_Experimental_Forest a bfo:site ;
+     rdfs:label "HJ Andrews Experimental Forest" ;
+     
+     
+     
+     
+     
+     
+     
+     organization ontology: http://www.w3.org/TR/vocab-org/
